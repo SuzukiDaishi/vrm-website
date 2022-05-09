@@ -195,5 +195,6 @@ export const createScene = async (el: HTMLCanvasElement) => {
   animate()
 }
 
+window.addEventListener('touchend', onTap)
 window.addEventListener('click', onTap)
 window.addEventListener('resize', resize)
